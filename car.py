@@ -4,7 +4,7 @@ import pandas as pd
 from sklearn.preprocessing import StandardScaler
 
 
-model = joblib.load("D:\ML projects\car_price _prediction\car.pkl")
+model = joblib.load("car.pkl")
 
 st.title("Car Price Predictor")
 
